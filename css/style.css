@@ -5700,3 +5700,83 @@ padding: 6px 25px;
 .ad-log-in-con p{}
 .ad-log-in-con form{}
 .ad-log-in-con form input{}
+
+
+
+
+
+/*-------------------------------------------------------*/
+/* 4.Subscription
+/*-------------------------------------------------------*/
+
+.sub-plan-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  background: #f9f9f9;
+}
+
+.sub-plan-box {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.4s ease;
+  text-align: center;
+}
+
+.sub-plan-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+}
+
+.sub-plan-box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.sub-plan-box .sub-price {
+  font-size: 28px;
+  color: #0ebeff;
+  margin-bottom: 6px;
+}
+
+.sub-plan-box small {
+  display: block;
+  margin-bottom: 20px;
+  color: #777;
+}
+
+.sub-plan-box .highlight {
+  color: #47cf73;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.sub-plan-box p {
+  font-size: 15px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.sub-plan-box .sub-btn {
+  background: #0ebeff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.sub-plan-box .sub-btn:hover {
+  background: #47cf73;
+}
